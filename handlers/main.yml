@@ -1,0 +1,6 @@
+---
+# handlers file for lighthouse
+- name: nginx-reload
+  become: true
+  command: nginx -s reload
+
